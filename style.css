@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+background-color: #adefd1ff;
+}
+
+.sidebar{
+    display: flex;
+}
+
+nav{
+    width: 25%;
+    height: 100vh;
+    background-color: #00203fff;
+}
+.navbar{
+    padding: 1rem;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.logo{
+    align-items: center;
+    padding: 0.5rem;
+    margin-bottom: .5rem;
+}
+
+.logo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.name{
+    background-color: rgb(34, 75, 117);
+    width: 90%;
+    height: 60px;
+    border-radius: 15px;
+    padding: 10px;
+    margin-left: 18px;
+    margin-bottom: 20px;
+}
+
+.name h4{
+    font-size: 15px;
+    padding-left: 18px;
+    color: white;
+}
+.name p{
+    font-size: 12px;
+    color: #dedddd;
+    padding-left: 18px;
+}
+
+.navbar i:hover{
+    color: #adefd1ff;
+}
+
+.navbar a{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    color: white;
+    font-weight: 500;
+}
+.navbar i{
+    font-size: 1.2rem;
+    margin: 0 1.8rem 0 0.3rem;
+    color: #fff;
+}
+
+.main-body{
+    padding: 1.5rem 2rem;
+    width: 100%;
+}
+
+.body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    padding: 1rem;
+    background-color: white;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.card h2{
+    font-size: 2rem;
+}
+
+.card span{
+    font-size: 12px;
+}
+
+
+.graphbox img{
+    width: 100%;
+}
+
+.graphbox{
+    width: 65%;
+    height: 75%;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 1rem;
+    margin-top: 20px;
+}
+
+.graphbox2{
+    background-color: #fff;
+    width: 32%;
+    border-radius: 20px;
+    padding: 1rem;
+    margin-top: 20px;
+
+}
+
+.graphbox2 img{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.graph{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header{
+    display: flex;
+    float: right;
+    position: relative;
+    justify-content: space-between;
+    background-color: #00203fff;
+    height: 40px;
+    
+}
+
+.header i{
+    margin-top: 10px;
+    color: #adefd1ff;
+}
+
+
